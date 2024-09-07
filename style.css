@@ -468,6 +468,126 @@
     margin-bottom: 30px;
 }
 
+/* meet our team section  */
+
+.meet-our-team-section{
+    width: 100%;
+}
+.meet-our-team-section h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 40px;
+}
+.meet-our-team-section p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 50px;
+}
+.meet-our-imgpart{
+    border-radius: 18px;
+    max-width: 1060px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: auto;
+    padding: 15px;
+    
+}
+.img-card-display{
+   display: flex;
+   justify-content: space-around;
+}
+.img-card img{
+    width: 326px;
+    height: 272px;
+    border-radius: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* footer section  */
+.footer-section{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+    padding-top: 65px;
+    padding-bottom: 40px;
+}
+.footer-sec-div{
+    max-width: 1060px;
+    margin: auto;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-first-div{
+    background: transparent;
+}
+.footer-first-div h1{
+    background: transparent;
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.footer-first-div p{
+    background: transparent;
+    max-width: 413px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+.footer-second-div h3{
+    background: transparent;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.footer-second-div p{
+    background: transparent;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.footer-line{
+    max-width: 1060px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px
+}
+.footer-last-line{
+    background: transparent;
+    text-align: center;
+    
+}
 /* media queries */
 
 /* header section */
@@ -591,4 +711,25 @@
     .calculate-your-bmi #esp-select{
         width: 357px;
     }
+
+    /* meet our img part  */
+
+    .meet-our-team-section{
+        width: 100%;
+        padding: 20px;
+    }
+    .img-card-display{
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-card img{
+        width: 310px;
+    }
+
+    /* footer-section  */
+    .footer-sec-div{
+        flex-direction: column;
+        padding: 20px;
+    }
+    
 }
