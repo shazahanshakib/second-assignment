@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    background: #151515;
+}
+
+
+/* header-section */
+
+.header-section{
+    width: 100%;
+    height: 715px;
+    background: #151515;
+    /* background-color: black; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center;
+    flex-direction: column; */
+    padding-top: 50px;
+}
+.nav-section{
+    max-width: 1060px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+.nav-section h1{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.nav-section ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 465px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 10px;
+
+}
+.nav-section ul li{
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.nav-section .home-btn{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    padding: 8px 20px 8px 20px;
+}
+.nav-section .nav-bar{
+    display: none;
+}
+/* header-second part */
+
+.headersecond-part{
+    margin: auto;
+    max-width: 1060px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.headerletter-div{
+    max-width: 600px;
+    margin-top: 40px;
+}
+.headerletter-div h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 28px 0px;
+}
+.headerletter-div p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin: 28px 0px;
+}
+.headerletter-div .btn1{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 16px 40px 16px 40px;
+    margin-right: 20px;
+}
+.headerletter-div .btn2{
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    background-color: black;
+    padding: 16px 40px 16px 40px;
+    
+}
+.box-div1{
+    position: absolute;
+    left: 1200px;
+    top: 260px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px; 
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+}
+.box-div1 h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+    background: none;
+    margin-bottom: 5px;
+}
+.box-div1 p{
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    background: none;
+    text-align: left;
+}
+.box-div2{
+    position: absolute;
+    left: 824px;
+    top: 556px;
+    height: 96px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px; 
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    display: flex;
+    padding: 20px;
+}
+.box-div2 div{
+    background: none;
+}
+.box-div2 .divB{
+    width: 48px;
+    height: 48px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.box-div2 h1{
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    background: none;
+    margin-bottom: 5px;
+}
+.box-div2 p{
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    background: none;
+}
+
+/* main section  */
+
+.main-section{
+    width: 100%;
+}
+
+/* your habit section  */
+.your-habit-section{
+    max-width: 1044px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.your-habit-section h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.your-habit-section p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+.habitsec-card-div{
+    width: 100%;
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.habitsec-card{
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.habitsec-card img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.habitsec-card h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.habitsec-card p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+/* run-extra-section */
+
+.run-extra-section{
+    max-width: 1060px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 30px 40px 50px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+.run-extra-writtenpart{
+    max-width: 450px;
+    background: none;
+}
+.run-extra-writtenpart h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    background: none;
+    margin-bottom: 20px;
+}
+.run-extra-writtenpart p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    background: none;
+    margin-bottom: 34px;
+}
+.same-btn{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 16px 40px 16px 40px;
+}
+.run-extra-img{
+    background: none;
+}
+.run-extra-img img{
+    height: 312px;
+    width: 366px;
+    border-radius: 18px;
+    background: none;
+}
+
+/* Bm calculate section  */
+.bm-calculate-sectin{
+    width: 100%;
+}
+.bmcalculate-headline{
+    margin-top: 80px;
+    text-align: center;
+}
+.bmcalculate-headline h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 14px;
+}
+.bmcalculate-headline p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+.calculate-bac-div{
+    width: 100%;
+    background:rgb(34, 34, 34);
+}
+.bmcalculate-div{
+    max-width: 1060px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    background: transparent;
+}
+.bmcalculate-chart{
+    background: transparent;
+}
+.bmcalculate-chart h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    background: none;
+}
+
+.bmcalculate-chart th{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px;
+    background:rgb(34, 34, 34);
+}
+.bmcalculate-chart td{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px;
+    background: none;
+    background:rgb(34, 34, 34);
+}
+.calculate-your-bmi{
+    background: transparent;
+}
+.calculate-your-bmi form, div{
+    background: transparent;
+}
+.calculate-your-bmi h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    background: transparent;
+}
+.calculate-your-bmi p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin-bottom: 15px;
+    background: transparent;
+    max-width: 577px;
+}
+.calculate-your-bmi input, select{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 10px 10px 10px 0px;
+    padding: 12px 40px 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+#first-select{
+    width: 282px;
+}
+.calculate-your-bmi #esp-select{
+    width: 577px;
+    margin-bottom: 40px
+}
+.calculate-your-bmi button{
+    margin-bottom: 30px;
+}
+
+/* media queries */
+
+/* header section */
+
+@media (max-width: 576px) {
+    .header-section{
+        background: #151515;
+        height: auto;
+    }
+    .nav-section{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .nav-section ul{
+        display: none;
+    }
+    .nav-section .nav-bar{
+        display: block;
+        font-size: 24px;
+    }
+    /* headersecond-part */
+    .headersecond-part{
+        display: flex;
+        flex-direction: column;
+    }
+    .headersecond-part{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .headerletter-div h1{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .minbtn{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .box-div1{
+        left: 214.2px;
+        top: 596.6px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 30.24px;
+        font-weight: 900;
+        line-height: 30.24px;
+        letter-spacing: 0.76px;
+        text-align: left;
+    }
+    .box-div2{
+        left: 32px;
+        top: 800.38px;
+    }
+
+    /* your habit section  */
+    .your-habit-section{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .your-habit-section h1{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .habitsec-card-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* run extra-section  */
+    .run-extra-section{
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+        margin: 65px 20px 65px 20px;
+    }
+    .run-extra-writtenpart h2{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .run-extra-img{
+        margin-top: 30px;
+    }
+    .run-extra-img img{
+        width: 287px;
+        height: 170px;
+    }
+
+    /* Bmi calculator  */
+    .bmcalculate-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .calculate-your-bmi{
+        margin: 30px 15px;
+    }
+    .calculate-your-bmi p{
+        max-width: 346px;
+    }
+    .calculate-your-bmi input, select, #first-select{
+        width: 170px;
+    }
+    .calculate-your-bmi #esp-select{
+        width: 357px;
+    }
+}
